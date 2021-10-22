@@ -12,6 +12,7 @@
 
             <!--bo tron-->
             <corners android:radius="35dp"></corners>
+<!--            <gradient android:centerColor="@color/purple_700"/>-->
         </shape>
     </item>
 </selector>
