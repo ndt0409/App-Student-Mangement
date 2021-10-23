@@ -10,7 +10,7 @@ import androidx.annotation.Nullable;
 
 import com.ndt.appstudentmanagement.model.Subject;
 
-public class database extends SQLiteOpenHelper {
+public class Database extends SQLiteOpenHelper {
     //Tên database
     private static String DATABASE_NAME = "studentmanagement";
     //Bảng môn học
@@ -47,7 +47,7 @@ public class database extends SQLiteOpenHelper {
             + ID_SUBJECTS + " INTEGER , FOREIGN KEY ( " + ID_SUBJECTS + " ) REFERENCES " +
             TABLE_SUBJECTS + "(" + ID_SUBJECTS + "))";
 
-    public database(@Nullable Context context) {
+    public Database(@Nullable Context context) {
         super(context, DATABASE_NAME, null, VERSION);
     }
 
