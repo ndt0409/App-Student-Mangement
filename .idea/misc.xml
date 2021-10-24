@@ -4,11 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Admin/AndroidStudioProjects/App-Student-Mangement/app/src/main/res/drawable/background_button.xml" value="0.2203125" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/App-Student-Mangement/app/src/main/res/layout/activity_add_subject.xml" value="0.15942028985507245" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/App-Student-Mangement/app/src/main/res/layout/activity_add_subject.xml" value="0.25" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/App-Student-Mangement/app/src/main/res/layout/activity_main.xml" value="0.11639492753623189" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/App-Student-Mangement/app/src/main/res/layout/activity_subject.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/App-Student-Mangement/app/src/main/res/layout/activity_student.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/App-Student-Mangement/app/src/main/res/layout/activity_subject.xml" value="0.18" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/App-Student-Mangement/app/src/main/res/layout/dialog_add.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/App-Student-Mangement/app/src/main/res/layout/dialog_exit.xml" value="0.1" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/App-Student-Mangement/app/src/main/res/layout/dialog_information.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/App-Student-Mangement/app/src/main/res/layout/dialogadd.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/App-Student-Mangement/app/src/main/res/layout/listsubject.xml" value="0.1693840579710145" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/App-Student-Mangement/app/src/main/res/menu/menuadd.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/Admin/AndroidStudioProjects/AppStudentManagement/app/src/main/res/drawable/background_button.xml" value="0.2203125" />

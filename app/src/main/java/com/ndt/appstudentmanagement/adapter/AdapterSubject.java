@@ -50,7 +50,7 @@ public class AdapterSubject extends BaseAdapter {
         ImageButton imgUpdate = view.findViewById(R.id.subjectUpdate);
         ImageButton imgInformation = view.findViewById(R.id.subjectInformation);
         Subject subject = ArrayListSubject.get(i);
-        tvCredit.setText(subject.getNumber_of_credit());
+        tvCredit.setText(subject.getNumber_of_credit()+"");
         tvSubjectTitle.setText(subject.getSubject_title());
 
         int id = subject.getId();
@@ -72,6 +72,6 @@ public class AdapterSubject extends BaseAdapter {
 
             }
         });
-        return null;
+        return view;
     }
 }

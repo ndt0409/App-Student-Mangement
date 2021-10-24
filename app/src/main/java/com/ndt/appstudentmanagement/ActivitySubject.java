@@ -59,7 +59,7 @@ public class ActivitySubject extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent = new Intent(ActivitySubject.this, ActivityStudent.class);
                 int id_subject = ArrayListSubjects.get(i).getId();
-                
+
                 //truyen du lieu id subject qua activity student
                 intent.putExtra("id_subject", id_subject);
                 startActivity(intent);
@@ -78,7 +78,7 @@ public class ActivitySubject extends AppCompatActivity {
         switch (item.getItemId()) {
             //neu click vao add thi chuyen sang man hinh add subject
             case R.id.menuAdd:
-                Intent intent1 = new Intent(ActivitySubject.this, ActivitySubject.class);
+                Intent intent1 = new Intent(ActivitySubject.this, ActivityAddSubject.class);
                 startActivity(intent1);
                 break;
             //neu click vao nut con lai la nut back thi quay lai main
