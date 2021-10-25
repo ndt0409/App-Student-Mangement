@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
+import android.app.Dialog;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
@@ -11,6 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListView;
 
 import com.ndt.appstudentmanagement.adapter.AdapterSubject;
@@ -119,5 +121,29 @@ public class ActivitySubject extends AppCompatActivity {
                 startActivity(intent);
             }
         }
+    }
+    public void delete(final int position){
+        Dialog dialog = new Dialog(this);
+        //nap layout vao dialog
+        dialog.setContentView(R.layout.dialog_delete);
+        dialog.setCanceledOnTouchOutside(false);
+        Button btnYes = dialog.findViewById(R.id.btnYesDelete);
+        Button btnNo = dialog.findViewById(R.id.btnNoDelete);
+        btnYes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //xóa subject trong csdl
+                database.DeleteSubject(position);
+                Intent intent = new Intent(ActivitySubject.this, ActivitySubject.class);
+                startActivity(intent);
+            }
+        });
+        btnNo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                dialog.cancel();
+            }
+        });
+        dialog.show();
     }
 }

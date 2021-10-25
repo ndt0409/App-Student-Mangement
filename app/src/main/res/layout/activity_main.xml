@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="100dp"
-        android:text="Student Management"
+        android:text="Quản lý sinh viên"
         android:textColor="#4CAF50"
         android:textSize="30sp"
         android:textStyle="bold" />

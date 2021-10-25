@@ -50,20 +50,23 @@ public class AdapterSubject extends BaseAdapter {
         ImageButton imgUpdate = view.findViewById(R.id.subjectUpdate);
         ImageButton imgInformation = view.findViewById(R.id.subjectInformation);
         Subject subject = ArrayListSubject.get(i);
-        tvCredit.setText(subject.getNumber_of_credit()+"");
+        tvCredit.setText(subject.getNumber_of_credit() + "");
         tvSubjectTitle.setText(subject.getSubject_title());
 
         int id = subject.getId();
+        //click icon thêm
         imgInformation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 context.information(id);
             }
         });
+        //click icon xóa
         imgDelete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                //gọi tới phương thức delete
+                context.delete(id);
             }
         });
         imgUpdate.setOnClickListener(new View.OnClickListener() {
