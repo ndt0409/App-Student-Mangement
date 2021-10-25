@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivitySubjectInformation">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:text="Subject Information"
+        android:textColor="#4CAF50"
+        android:textSize="30sp"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="Tên môn học: "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+        <TextView
+            android:textColor="@color/black"
+            android:text="Android"
+            android:id="@+id/tvSubjectTitle"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="Số tín chỉ: "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+        <TextView
+            android:textColor="@color/black"
+            android:text="3"
+            android:id="@+id/tvSubjectCredit"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="Thời gian: "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+        <TextView
+            android:textColor="@color/black"
+            android:text="3 month"
+            android:id="@+id/tvSubjectTime"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:text="Địa điểm: "
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+        <TextView
+            android:textColor="@color/black"
+            android:text="Số nhà"
+            android:id="@+id/tvSubjectPlace"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"></TextView>
+    </LinearLayout>
+</LinearLayout>

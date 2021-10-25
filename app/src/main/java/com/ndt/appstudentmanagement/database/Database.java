@@ -85,7 +85,7 @@ public class Database extends SQLiteOpenHelper {
         db.update(TABLE_SUBJECTS, values, ID_SUBJECTS + " = " + id, null);
         return true;
     }
-
+//lay du lieu subject
     public Cursor getDataSubject() {
         SQLiteDatabase db = this.getReadableDatabase();
         Cursor cursor = db.rawQuery("SELECT * FROM " + TABLE_SUBJECTS, null);
