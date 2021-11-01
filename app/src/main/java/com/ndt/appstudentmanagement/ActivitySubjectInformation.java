@@ -30,7 +30,7 @@ public class ActivitySubjectInformation extends AppCompatActivity {
         //gan gia tri len
         tvTitle.setText(title);
         tvTime.setText(time);
-        tvCredit.setText(credit+"");
+        tvCredit.setText(credit + "");
         tvPlace.setText(place);
     }
 }

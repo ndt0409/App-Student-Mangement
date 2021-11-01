@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppStudentManagement">
         <activity
+            android:name=".ActivityUpdateSubject"
+            android:exported="true" />
+        <activity
             android:name=".ActivitySubjectInformation"
             android:exported="true" />
         <activity
